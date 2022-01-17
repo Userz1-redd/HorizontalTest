@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    style="@style/Item_Header_Style">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:descendantFocusability="blocksDescendants"
+                >
+
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text=""
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="1시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="2시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="3시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="4시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="5시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="오전6시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="7시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="8시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="9시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="10시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="11시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="오후12시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="1시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="2시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="3시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="4시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="5시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="오후6시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="7시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="8시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="9시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="10시"
+                    />
+                <TextView
+                    style="@style/ListItemHeaderTextView"
+                    android:text="11시"
+                    />
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
