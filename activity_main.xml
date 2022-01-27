@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample App"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="100dp"
+            />
+
+        <Button
+            android:id="@+id/add_schedule_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="#2ED83F"
+            android:text="일정 추가"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/go_schedule_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:backgroundTint="#2ED83F"
+            android:text="일정 확인"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:clickable="true"
+            />
+        <com.example.library.mainview.DevScheduleView
+            android:id="@+id/schedule_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:viewType="1"
+            app:per_leftheaderheight="100dp"
+            app:per_topheaderwidth="100dp"
+            />
+
+    </LinearLayout>
+</layout>
